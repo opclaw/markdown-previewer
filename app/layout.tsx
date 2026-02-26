@@ -3,6 +3,9 @@ import './globals.css'
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://markdown-previewer.vercel.app'),
+  alternates: {
+    canonical: 'https://markdown-previewer.vercel.app',
+  },
   title: 'Markdown Previewer — Edit & Preview Markdown | Free Tool',
   description: 'Write and preview Markdown in real-time. Free online Markdown editor and previewer.',
   keywords: ['markdown previewer', 'markdown editor', 'markdown viewer', 'md preview'],
