@@ -17,11 +17,13 @@ export const metadata: Metadata = {
     siteName: 'Markdown Previewer',
     title: 'Markdown Previewer — Edit & Preview Markdown',
     description: 'Write and preview Markdown in real-time.',
+    images: ['/og-image.svg'],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Markdown Previewer',
     description: 'Write and preview Markdown in real-time.',
+    images: ['/og-image.svg'],
   },
   robots: { index: true, follow: true },
 }
